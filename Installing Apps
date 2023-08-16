@@ -23,3 +23,8 @@ flatpak install flathub file_name
 # If not go to loacation where it is located, right click, open terminal then write the following
 flatpak install file_name
 #Note: Self Contained , fast installation and smaller file size but not isolated 
+
+
+# NOTE: If you want to copy the file name to paste it in the command do the following
+ls 
+@ ls will show all the files in that directory that is open in the terminal and then you copy paste it from there

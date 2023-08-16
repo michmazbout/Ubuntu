@@ -1,0 +1,21 @@
+# Snap List Command
+# How to Check if it is already Installed
+snap status
+# How to Check All Snaps Installed
+snap list
+# How to Install
+sudo apt install snapd
+# How to Install with it
+sudo snap install file_name
+#Note: Self Contained , isolated but larger file sizes and slower installation time but might be faster while being used
+
+# flatpak List Command
+# How to Check if it is already Installed
+flatpak status
+# How to Check All flatpaks Installed
+flatpak list
+# How to Install
+sudo apt install flatpak
+# How to Install with it
+flatpak install flathub file_name
+#Note: Self Contained , fast installation and smaller file size but not isolated 

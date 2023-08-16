@@ -18,6 +18,8 @@ flatpak list
 sudo apt install flatpak
 clear
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-# How to Install with it
+# How to Install with it (Assuming the file u want to install is in flathub)
 flatpak install flathub file_name
+# If not go to loacation where it is located, right click, open terminal then write the following
+flatpak install file_name
 #Note: Self Contained , fast installation and smaller file size but not isolated 

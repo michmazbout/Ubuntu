@@ -16,6 +16,8 @@ flatpak status
 flatpak list
 # How to Install
 sudo apt install flatpak
+clear
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # How to Install with it
 flatpak install flathub file_name
 #Note: Self Contained , fast installation and smaller file size but not isolated 
